@@ -1,8 +1,8 @@
 # Introduction
 
-C# includes following standard IO (Input/Output) classes to read/write from different sources like files, memory, network, isolated storage, etc.
+`System.IO.Stream` is an abstract class that provides standard methods to read/write from different sources like files, memory, network, isolated storage, etc.. 
 
-`System.IO.Stream` is an abstract class that provides standard methods to transfer bytes (read, write, etc.) to the source. Classes that need to read/write bytes from a particular source must implement the `Stream` class: some of the more commonly used streams that inherit from `Stream` are `FileStream` and `MemoryStream`.
+Classes that need to read/write bytes from a particular source must implement the `Stream` class: some of the more commonly used streams that inherit from `Stream` are `FileStream` and `MemoryStream`.
 
 Any stream must be disposed once used. It is recommended to use the `using` keyword:
 
